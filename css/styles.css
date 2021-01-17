@@ -1,0 +1,36 @@
+.title {
+    font-size: 3rem;
+    padding-top: 28px;
+}
+
+.images {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0px auto;
+    align-content: center;
+}
+
+.background {
+    background-image: url("../img/primosten.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+p.author {
+    font-style: italic;
+}
+
+textarea[name=description] {
+    resize: none;
+}
+
+section.rounded-borders {
+    border-radius: 10px;
+}
